@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>reto 3</title>
+    <style>
+        
+        input {
+            padding: 10px;
+            border: 2px solid turquoise;
+            margin: 10px;
+        }
+        input:focus {
+            padding: 10px;
+            outline: none;
+            border: 2px solid yellow;
+            background: tomato ;
+            margin: 10px;
+        }
+
+        input:focus::placeholder {
+            color: white;
+        }
+        
+        input:invalid {
+            background: red;
+        }
+
+      
+    </style>
+
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Formulario</h1>
+            <div>
+                <input type="text" id="name" placeholder="Nombre" required>
+                <input type="text" id="lastname" placeholder="Apellido" pattern="[0-9]{5}" required>
+            </div>
+            <div>
+                <input type="number" id="age" placeholder="Edad" min="18" max="80" required>
+                <input type="number" id="telephone" placeholder="Teléfono" maxlength="8" required>
+            </div>
+            <div>
+                <input type="email" id="email" placeholder="Correo" required>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
