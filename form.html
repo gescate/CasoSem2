@@ -23,8 +23,12 @@
             color: white;
         }
         
-        input:invalid {
-            background: red;
+        input:focus:invalid {
+            
+            border: 2px solid red;
+        }
+        input:focus:valid {
+            border: 2px solid green;
         }
 
       
@@ -36,16 +40,25 @@
         <form>
             <h1>Formulario</h1>
             <div>
-                <input type="text" id="name" placeholder="Nombre" required>
-                <input type="text" id="lastname" placeholder="Apellido" pattern="[0-9]{5}" required>
+                <input type="text" id="name" placeholder="Nombre" pattern="[A-Z][a-z]+" required>
+                <input type="text" id="lastname" placeholder="Apellido" pattern="[A-Z][a-z]+" required>
             </div>
             <div>
                 <input type="number" id="age" placeholder="Edad" min="18" max="80" required>
                 <input type="number" id="telephone" placeholder="Teléfono" maxlength="8" required>
             </div>
             <div>
+                <input type="text" id="dni" placeholder="DNI"  pattern="[0-9]{8}" required>
                 <input type="email" id="email" placeholder="Correo" required>
             </div>
+            <label for=""><h2>Elige Sexo</h2></label>
+                <label>
+                    M
+                    <input type="radio" name="sex" id="hombre">
+                    F
+                    <input type="radio" name="sex" id="mujer">
+                </label><br>
+                <button>Enviar</button>
         </form>
     </main>
     
