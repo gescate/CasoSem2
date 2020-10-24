@@ -1,0 +1,211 @@
+/* Global */
+h1 {
+font-size: 64px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#7A7A7A;
+    padding: 10px;
+    width: 100%;
+    margin: 20px;
+}
+textarea{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#7A7A7A;
+    width: 100%;
+   }
+
+/*header */
+
+.header {
+    position: relative;
+}
+.header h1 {
+    position: absolute;
+    color: white;
+    padding: 20px;
+    left: 35%;
+    text-align: center;
+}
+
+.header h2 {
+    position: absolute;
+      color: white;
+    text-align: left;
+    top: 70%;
+    margin-left: 5%;
+    padding: 10px;
+    width: 230px;
+    background: #7299FE 50%;
+}
+.header img {
+  display: block;
+    height: 100%;
+    width: 100%;
+}
+/* about me */
+
+.about {
+    background-color: #7299FE;
+    padding: 50px;
+    position: relative;
+    }
+
+.about h2 {
+    color: #1D06A7;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about p {
+    color: white;
+}
+
+.about button {
+    color: white;
+    font-size: 22px;
+    background-color: #D16FFF;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+
+/* Skills */
+
+.skills {
+    background: #9022FF;
+    padding: 50px;
+    }
+
+.skills h2 {
+    color: #26CC4B;
+    font-weight: 700;
+    text-align: center;
+}
+
+.skills h3 {
+
+    color: white
+}
+
+.seccion1, .seccion2, .seccion3  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   }
+
+.barrablanca { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
+    height: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin-right: 50px;
+}
+.barraazul {
+    background: #57EFF9;
+    height: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/*Portafolio*/
+
+.portfolio {
+    background: #FFD233;
+    padding: 50px;
+}
+
+.portfolio h2 {
+    color: #00AD84;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.arriba, .abajo
+{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+   }
+
+/* Clientes*/
+
+.clientes {
+    background: #3F4E62;
+    padding: 50px;
+}
+
+.clientes h2 {
+    color: #ADFF28;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.centro {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 50px;
+}
+
+/*contacto*/
+
+.contacto {
+    background: #1687A0;
+    padding: 50px;
+}
+
+.contacto h2 {
+    color: #FF1B1B;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.linea1, .linea2 {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.linea3 {
+    margin: 20px;
+}
+.boton {
+    text-align: center;
+}
+.button {
+    width: 200px;
+    text-align: center;
+    background-color: #233451;
+    color: white;
+}
